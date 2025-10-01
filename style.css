@@ -23,7 +23,7 @@ header{
   align-items: center;
   width: 100%;
   height: 50vh;
-  background-image: url(asset/image/fondDuSite.jpg);
+  background-image: url(asset/image/fondDuSite.png);
   background-size: cover;
   background-position: center;  
   margin-bottom: 30px;
@@ -51,12 +51,12 @@ nav li a{
 }
 
 .main_title{
-  color: #ff4d00;
+  color: #6e0b14;
   font-size: 3.40rem;
   margin-bottom: 10px;
 }
 .sub_title{
-  color: #ff4d00;
+  color: #6e0b14;
   font-size: 2.10;
   padding-left: 35%;
   
@@ -94,9 +94,20 @@ nav li a{
   margin: 0 auto;
   line-height: 2;
 }
+.title_sectionexp{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #f90707; 
+}
+}
 .annee p{
   font-size: 24px;
 }
+
 
 
 
