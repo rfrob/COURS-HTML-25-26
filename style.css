@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px) {
+ .xp{
+  flex-direction: column;
+  gap: 10px;
+ }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*-----------------------------HEADER-------------------------*/
+
+
+
+header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-image: url(asset/image/fondDuSite.jpg);
+  background-size: cover;
+  background-position: center;  
+  margin-bottom: 30px;
+  font-weight: bold;}
+.navbar{
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.menu {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+nav li a{
+  color: #f90707;
+  font-size: 22px;
+  text-decoration: none;
+}
+.title{
+  text-align: center;
+  margin-top: 50%;
+  font-weight: lighter;
+}
+
+.main_title{
+  color: #ff4d00;
+  font-size: 3.40rem;
+  margin-bottom: 10px;
+}
+.sub_title{
+  color: #ff4d00;
+  font-size: 2.10;
+  padding-left: 35%;
+  
+}
+#Diplomes{
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.title_section h2{
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #f90707; 
+}
+.diplome_list ul{
+  list-style: none;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: bold;
+
+}
+
+
+
+
+.xp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  width : 75%;
+  height: auto;
+  margin: 0 auto;
+  line-height: 2;
+}
+.annee p{
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
