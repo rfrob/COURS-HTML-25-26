@@ -40,7 +40,7 @@ header{
   list-style: none;
 }
 nav li a{
-  color: #f90707;
+  color: #22427c;
   font-size: 22px;
   text-decoration: none;
 }
@@ -51,12 +51,12 @@ nav li a{
 }
 
 .main_title{
-  color: #6e0b14;
+  color: #0620fb;
   font-size: 3.40rem;
   margin-bottom: 10px;
 }
 .sub_title{
-  color: #6e0b14;
+  color: #22427c;
   font-size: 2.10;
   padding-left: 35%;
   
@@ -71,7 +71,7 @@ nav li a{
   height: auto;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #f90707; 
+  color: #22427c;
 }
 .diplome_list ul{
   list-style: none;
@@ -87,7 +87,7 @@ nav li a{
   height: auto;
   font-size: 1rem;
   margin-bottom: 30px;
-  color: #f90707; 
+  color: #22427c; 
 }
 
 .xp{
@@ -108,13 +108,10 @@ nav li a{
   align-content: flex-start;
   width: 20%;
 }
-.emploi h3,{
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-
-
+.emploi {
+  width: 80%;
 }
+
 /*EXPERIENCE------------------------
 .xp{
   display: flex;
